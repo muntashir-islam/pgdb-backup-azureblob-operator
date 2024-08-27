@@ -1,0 +1,12 @@
+apiVersion: database.muntashirislam.com/v1alpha1
+kind: PostgresBackup
+metadata:
+  labels:
+    app.kubernetes.io/name: postgresbackup
+    app.kubernetes.io/instance: postgresbackup-sample
+    app.kubernetes.io/part-of: postgres-backup-azureblob-operator
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: postgres-backup-azureblob-operator
+  name: postgresbackup-sample
+spec:
+  # TODO(user): Add fields here
